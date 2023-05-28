@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Primeiro Desafio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div id="fields-container">
+    <p>
+      <label for="Collor1">R (Red - Vermelho)</label>
+      <input type="range" id="points1" value="0" name="points1" min="0" max="255" />
+      <input type="text" id="inputPoint1" disabled />
+    </p>
+    <p>
+      <label for="Collor2">G (Green - Verde)</label>
+      <input type="range" id="points2" value="0" name="points2" min="0" max="255" />
+      <input type="text" id="inputPoint2" disabled />
+      <span> </span>
+    </p>
+    <p>
+      <label for="Collor3" id="label3">B (Blue- Azul)</label>
+      <input type="range" id="points3" value="0" name="points3" min="0" max="255" />
+      <input type="text" id="inputPoint3" disabled />
+    </p>
+  </div>
+  <p>
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 590" xmlns="http://www.w3.org/2000/svg"
+      class="transition duration-300 ease-in-out delay-150">
+      <path id="path1"
+        d="M 0,600 C 0,600 0,150 0,150 C 44.461101271511254,167.77366570620424 88.92220254302251,185.54733141240848 138,186 C 187.0777974569775,186.45266858759152 240.77229109942112,169.58434005657037 295,153 C 349.2277089005789,136.41565994342963 403.9886330592931,120.11530836131013 452,121 C 500.0113669407069,121.88469163868987 541.2731766634064,139.9544264981892 587,162 C 632.7268233365936,184.0455735018108 682.9186602870813,210.06698564593302 727,205 C 771.0813397129187,199.93301435406698 809.0521821882683,163.77763091807873 862,161 C 914.9478178117317,158.22236908192127 982.8726109598458,188.82249068175207 1033,188 C 1083.1273890401542,187.17750931824793 1115.4573739723492,154.9324063549129 1157,145 C 1198.5426260276508,135.0675936450871 1249.2978931507573,147.44788389859633 1298,152 C 1346.7021068492427,156.55211610140367 1393.3510534246213,153.27605805070183 1440,150 C 1440,150 1440,600 1440,600 Z"
+        stroke="none" stroke-width="0" class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
+  </p>
+</body>
+<script src="./js/script.js"></script>
+
+</html>

@@ -1,0 +1,32 @@
+
+#inputPoint1,
+#inputPoint2,
+#inputPoint3 {
+  width: 25px;
+  border-color: black;
+  border-radius: 10px;
+}
+#fields-container {
+  text-align: center;
+}
+
+#fields-container p {
+  margin: 10px 0;
+}
+#path1 {
+  transform-origin: center;
+  animation: wave 5s infinite linear;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
